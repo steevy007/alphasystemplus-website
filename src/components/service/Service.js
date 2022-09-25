@@ -21,6 +21,7 @@ const Service = () => {
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
         </p>
       </div>
+
     </div>
   )
 }
