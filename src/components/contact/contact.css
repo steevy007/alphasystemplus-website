@@ -2,7 +2,6 @@
     background-color: rgb(245, 245, 245);
     padding:  2.5rem;
 }/* Google Font CDN Link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -47,7 +46,7 @@
 }
 .content .left-side .details i{
   font-size: 30px;
-  color: #3e2093;
+  color: #333;
   margin-bottom: 10px;
 }
 .content .left-side .details .topic{
@@ -64,9 +63,9 @@
   margin-left: 75px;
 }
 .content .right-side .topic-text{
-  font-size: 23px;
+  font-size: 2rem;
   font-weight: 600;
-  color: #3e2093;
+  color: #333;
 }
 .right-side .input-box{
   height: 50px;

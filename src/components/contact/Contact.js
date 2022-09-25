@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css'
 const Contact = () => {
   return (
-    <div className='section' id='contact'>
+    <div className='section' id='contact' data-aos="fade-down">
       <div class="container">
         <div class="content">
           <div class="left-side">
@@ -36,9 +36,9 @@ const Contact = () => {
                 <input type="text" placeholder="Enter your email" />
               </div>
               <div class="input-box message-box">
-                  <textarea placeholder='Votre message'>
+                <textarea placeholder='Votre message'>
 
-                  </textarea>
+                </textarea>
               </div>
               <div class="button">
                 <input type="button" value="Send Now" />
