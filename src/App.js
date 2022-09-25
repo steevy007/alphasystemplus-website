@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Navbar from './components/navbar/navbar';
+import React,{useEffect} from 'react'
+import Landing from './components/landing/Landing';
+import Footer from './components/footer/Footer';
+import AOS from 'aos';
 function App() {
+  useEffect(()=>{
+    AOS.init()
+  },[])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Landing/>
+      <Footer/>
+      {
+        /*
+   <Router>
+        <Navbar />
+          <Routes>
+            <Route exact path='/' element={<Landing/>} />
+            <Route exact path='/about' element={<Landing/>} />
+            <Route exact path='/service' element={<Landing/>} />
+            <Route exact path='/contact' element={<Landing/>} />
+          </Routes>
+        </Router>
+        */
+      }
+
+
+    </>
   );
 }
 
