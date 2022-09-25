@@ -1,5 +1,5 @@
 #contact{
-    background-color: rgb(245, 245, 245);
+    
     padding:  2.5rem;
 }/* Google Font CDN Link */
 *{
@@ -13,7 +13,7 @@
   background: #fff;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
 }
 .container .content{
   display: flex;
@@ -108,7 +108,10 @@
 .button input[type="button"]:hover{
   background: #5029bc;
 }
-
+#contact .six{
+  margin-top: 0;
+  margin-bottom:4.5rem;
+}
 @media (max-width: 950px) {
     #contact{
         padding:  1rem;
@@ -122,6 +125,9 @@
    margin-left: 55px;
 }
 }
+
+
+
 @media (max-width: 768px) {
   .container{
     margin: 40px 0;

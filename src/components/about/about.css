@@ -3,13 +3,14 @@
     flex-direction: row;
     justify-content: space-between;
     padding:  2.5rem;
-    background-color: rgb(245, 245, 245);
+   
 }
 
 #about div {
     width: 48%;
     padding: 1.5rem;
     background-color: white;
+    
     /*box-shadow: 0 1px 1px rgba(0,0,0,0.16), 0 1px 1px rgba(0,0,0,0.23);*/
     border-radius: 3px;
     height: fit-content;
@@ -64,6 +65,7 @@ p{
     line-height: 1.5em;
     background-color: #fcfcfa;
 }
+
 
 @media screen and (max-width:768px){
     #about {

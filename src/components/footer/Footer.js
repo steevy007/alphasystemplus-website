@@ -6,10 +6,10 @@ const Footer = () => {
     return (
         <div id='footer'>
             <div className='social'>
-                <a href=''><i className='fab fa-instagram'></i></a>
-                <a href=''><i className='fab fa-snapchat'></i></a>
-                <a href=''><i className='fab fa-twitter'></i></a>
-                <a href=''><i className='fab fa-facebook'></i></a>
+                <a href='www.google.com'><i className='fab fa-instagram'></i></a>
+                <a href='www.google.com'><i className='fab fa-snapchat'></i></a>
+                <a href='www.google.com'><i className='fab fa-twitter'></i></a>
+                <a href='www.google.com'><i className='fab fa-facebook'></i></a>
             </div>
             <ul className='list'>
                 <li className='nav-item'>
